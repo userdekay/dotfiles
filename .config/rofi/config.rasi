@@ -4,4 +4,4 @@
 // just put the Glass.rasi file in your usr/share/rofi/themes directory 
 // or change the location here
 
-// NO NEED, this will point to the .config/rofi directory, much better this way
+// NO NEED, this will point to the .config/rofi directory

@@ -5,10 +5,9 @@
  */
 
 * {
-    selected-normal-foreground:   rgba ( 0, 0, 0, 100 % );
+    selected-normal-foreground:  rgba ( 2, 20, 63, 100 % );
     //foreground:                  rgba ( 219, 223, 188, 100 % );
-    foreground:                  rgba ( 0, 0, 0, 100 % );
-//rgba ( 220, 220, 220, 100 % );
+    foreground:                  rgba ( 220, 220, 220, 100 % );
     normal-foreground:           @foreground;
     alternate-normal-background: rgba ( 0, 0, 0, 0 % );
     red:                         rgba ( 220, 50, 47, 100 % );
@@ -21,16 +20,14 @@
     selected-active-foreground:  rgba ( 2, 20, 63, 100 % );
     alternate-active-background: rgba ( 0, 0, 0, 0 % );
     background:                  rgba ( 0, 0, 0, 79 % );
-    bordercolor:                 rgba ( 0, 0, 0, 100 % );
-//rgba ( 230, 230, 230, 100 % );
+    bordercolor:                  rgba ( 0, 0, 0, 0 % );
     alternate-normal-foreground: @foreground;
     normal-background:           rgba ( 0, 0, 0, 0 % );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
     selected-normal-background:  rgba ( 220, 220, 220, 100 % );
     border-color:                @foreground;
     spacing:                     2;
-    separatorcolor:             rgba ( 0, 0, 0, 100 % );
-// rgba ( 220, 220, 220, 100 % );
+    separatorcolor:              rgba ( 220, 220, 220, 100 % );
     urgent-background:           rgba ( 0, 0, 208, 0 % );
     selected-urgent-background:  rgba ( 255, 129, 127, 100 % );
     alternate-urgent-foreground: @urgent-foreground;
@@ -111,9 +108,9 @@ element.alternate.active {
     text-color:       @alternate-active-foreground;
 }
 scrollbar {
-    width:        4px ;
+    width:        0px ;
     border:       0;
-    handle-width: 8px ;
+    handle-width: 0px ;
     padding:      0;
 }
 mode-switcher {
