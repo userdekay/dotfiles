@@ -2,7 +2,7 @@
  * ROFI Color theme
  * User: Qball
  * Copyright: Dave Davenport
-
+========================================================================================================================================
 This theme is altered on top of the previous one.
 The darkblue theme was the predecessor 
 
@@ -10,9 +10,8 @@ Now in its place is this mockery of the liquid ass theme from apple
 
 feel free to alter and change, and do try to play around with it, you can always download it again from my github
 
-
-https://github.com/userdekay/dotfiles
-
+https://github.com/userdekay/dotfiles.git
+========================================================================================================================================
 
  */
 
