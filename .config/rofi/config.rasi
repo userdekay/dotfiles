@@ -1,4 +1,5 @@
-@theme "/usr/share/rofi/themes/Glass.rasi"
+@theme "/.config/rofi/Glass.rasi"
+@theme "/.config/rofi/Black.rasi"
 
 // just put the Glass.rasi file in your usr/share/rofi/themes directory 
 // or change the location here
