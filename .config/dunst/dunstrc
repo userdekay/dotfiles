@@ -1,0 +1,9 @@
+[global]
+font = SF Pro Display 10
+frame_color = #007aff
+separator_color = frame
+padding = 12
+horizontal_padding = 12
+background = "#ffffff"
+foreground = "#111111"
+

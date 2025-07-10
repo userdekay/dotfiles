@@ -1,0 +1,27 @@
+#set sandbox none
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set statusbar-show none
+set statusbar-show page-number
+
+#set scroll-step -1
+#set scroll-resolution 100
+set page-padding 1
+set font monospace 21
+
+map b scroll full-up 
+map f scroll full-down 
+map v snap_to_page
+#map left scroll full-up
+#map right scroll full-down 
+map r rotate 
+map R reload
+map i recolor
+map p snap_to_page
+map = zoom in
+map + best-fit
+map j scroll full-down
+map k scroll full-up 
+map J scroll down
+map K scroll up
+
