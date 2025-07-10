@@ -1,6 +1,7 @@
 # The vertex of rices-
 
 This setup mimics macOs as close as possible while keeping the functionality and minimal nature of i3wm.
+While I like the aesthetic of the apple design, I prefer the versatility and freedom that comes with linux.
 
 - My scripts are located in ```~/.config/scripts/```
 - The configs are for-
@@ -35,6 +36,7 @@ Some additional programs I would recommend-
 ## Installation
 
 ```mkdir ~/dekay && cd ~/dekay```
+
 ```git clone https://github.com/userdekay/dotfiles.git``` 
 
 
