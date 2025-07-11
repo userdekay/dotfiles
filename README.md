@@ -39,6 +39,10 @@ Some additional programs I would recommend-
 
 ```git clone https://github.com/userdekay/dotfiles.git``` 
 
+- You just have to install i3
+- And copy your config files in another place for safekeeping
+- Then copy and replace the .config files with my dotfiles
+- And you are set
 
 :wq
 
