@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Wallpaper folder (change this to your actual folder)
-FOLDER=~/Pictures/walls
+FOLDER=~/Pictures/wallpapers
 
 # Open nsxiv and get the selected wallpaper
 CHOICE=$(nsxiv -otb "$FOLDER")

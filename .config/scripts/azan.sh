@@ -1,6 +1,8 @@
 #!/bin/bash
+    
+# This can be used with any other prayer cli utility
 
-for ((i=10;i>0;i++)); do
+while true; do
 	go-pray next
 	sleep 60
 done 
