@@ -23,14 +23,12 @@ These dotfiles are intended to be used alongside numerous other programs and I h
 Some additional programs I would recommend-
 
 - nvim *(text/code editor)*
-	- It does so much more than edit text
 - nsxiv *(image/gif viewer)*
 - mpv *(video player)*
 - obsidian *(markdown editor)*
-	- It does so much more than edit in markdown
 - pet *(terminal command snippet manager)*
 
-(Do send me pics of your setups and let me know if you encounter any problems or questions :] )
+(Do send me pics of how your have incorporated this config in your setups and let me know if you encounter any problems or questions :] )
 
 
 ## Installation
