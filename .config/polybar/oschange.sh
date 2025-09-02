@@ -1,10 +1,8 @@
 #!/bin/bash
-
 # Define menu options
 options=(
     "Glass"
     "MacOs"
-    "Macintosh"
 )
 
 # Show menu in rofi and get the selected option
@@ -18,9 +16,6 @@ case "$chosen" in
         ;;
     "Glass")
         ~/.config/polybar/macGlass.sh &
-        ;;
-    "Macintosh")
-        ~/.config/polybar/mac.sh &
         ;;
     *)
         # If cancelled or no match, do nothing

@@ -2,14 +2,16 @@
 
 # Define menu options
 options=(
-    "randowalls"
+    "randoWalls"
+    "randoTiles"
     "walls"
     "tiles"
-    "notes"
-    "capswap"
-    "awake"
+    "all black"
+    "pomo"
     "dunst"
     "azan"
+    "capswap"
+    "awake"
 )
 
 # Show menu in rofi and get the selected option
@@ -25,12 +27,12 @@ case "$chosen" in
     "tiles")
         ~/.config/scripts/wallpaperTiled.sh &
         ;;
-    "randowalls")
+    "randoWalls")
         ~/.config/scripts/randowalls.sh &
         ;;  
-    "notes")
-        ~/.config/scripts/uxnnote.sh &
-        ;;
+    "randoTiles")
+        ~/.config/scripts/randowallsTiles.sh &
+        ;;  
     "capswap")
         setxkbmap -option caps:swapescape &
         ;;
@@ -43,8 +45,15 @@ case "$chosen" in
     "azan")
         go-pray daemon &
         ;;
+    "pomo")
+        ~/.config/scripts/pomo.sh &
+        ;;
+    "all black")
+        feh --bg-tile ~/Pictures/tiles/blacktile.png &
+        ;;
     *)
         # If cancelled or no match, do nothing
         ;;
 esac
+
 
